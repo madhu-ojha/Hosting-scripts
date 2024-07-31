@@ -6,10 +6,6 @@ sudo apt update
 sudo apt install -y apache2 mysql-server php php-mysql libapache2-mod-php php-cli wget unzip
 
 # set up mysql database and user
-#db_name="wordpress"
-#db_user="userOne"
-#db_pass="userOne"
-#mysql_root_pass="root"
 echo "enter domain name of of your choice:"
 read domain_name
 echo "Enter database name:"
